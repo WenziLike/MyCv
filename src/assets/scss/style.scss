@@ -4,17 +4,20 @@
 // основные настройки сброса и подключения шрифтов "Главные"
 @import "utils/variables.scss";
 @import "utils/AModernCSSReset.scss";
-@import "utils/StyleLibrarys.scss";
 @import "utils/fonts.scss";
 @import "utils/mixins.scss";
 @import "utils/animations.scss";
 @import "utils/media.scss";
 
 // ===============================================================
+//отдельные подтягивающие шрифты
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+// ===============================================================
 //отдельные компоненты сайта components
 
 // ===============================================================
 // основные блоки страницы сайта modules
+@import "modules/StyleCv.scss";
 // ===============================================================
 // общие стили
 

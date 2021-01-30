@@ -171,26 +171,6 @@ section,
         padding: 20px 0;
     }
 }
-//====================================================================
-// CONTAINER
-.container {
-    width: 100%;
-    max-width: 1100px;
-    flex: 0 0 auto;
-    position: relative;
-    margin: 0 auto;
-    // max-width: $desktopWidth;  //!!!!! изменил контейнер max-width: 1000px; с 1280
-    @media screen and (max-width: $smDesktopWidth) {
-        max-width: $tableWidth;
-    }
-    @media screen and (max-width: $tableWidth) {
-        max-width: $phoneWidth;
-    }
-    @media screen and (max-width: $phoneWidth) {
-        max-width: $smPhoneWidth;
-    }
-}
-
 .form-control {
     position: relative;
     margin-bottom: 0.5rem;
@@ -313,5 +293,145 @@ section,
     left: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.35);
+}
+//====================================================================
+// CONTAINER Style
+.container {
+    width: 100%;
+    max-width: 1100px;
+    flex: 0 0 auto;
+    position: relative;
+    margin: 0 auto;
+    // max-width: $desktopWidth;  //!!!!! изменил контейнер max-width: 1000px; с 1280
+    @media screen and (max-width: $smDesktopWidth) {
+        max-width: $tableWidth;
+    }
+    @media screen and (max-width: $tableWidth) {
+        max-width: $phoneWidth;
+    }
+    @media screen and (max-width: $phoneWidth) {
+        max-width: $smPhoneWidth;
+    }
+}
+//====================================================================
+// WRAPPERS Style
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.wrapper-content {
+    // display: flex;
+    // flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    // ! изменил
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    //========================
+}
+//====================================================================
+// CARD Style
+.card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.card.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle-image {
+    width: 300px;
+    height: 300px; /* Ширина и высота */
+    border-radius: 50%; /* Превращаем в круг */
+    background: url("./../myfoto.jpg") no-repeat -50px 0; /* Параметры фона */
+    background-size: auto 400px; /* Высота фотографии равна высоте элемента */
+    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+//====================================================================
+// TAG Stele
+hr {
+    margin: 1rem 0;
+}
+strong,
+.bold {
+    font-weight: 500;
+}
+//====================================================================
+// FLEX Style
+.flex-sa {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-dcol {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.flex-auto {
+    flex: 1 auto;
+    height: 100%;
+}
+//====================================================================
+// Default styling classes
+// Стилизационные классы по умолчанию
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-5 {
+    padding-top: 5rem;
+}
+//====================================================================
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mt-5 {
+    margin-top: 5rem;
+}
+//====================================================================
+.m-2 {
+    margin: 1.5rem;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.m-5 {
+    margin: 5rem;
+}
+//====================================================================
+// BORDER_RADIUS Style
+.br-3 {
+    border-radius: 3px;
+}
+.br-5 {
+    border-radius: 5px;
+}
+.br-8 {
+    border-radius: 8px;
+}
+.br-10 {
+    border-radius: 10px;
 }
 //====================================================================
