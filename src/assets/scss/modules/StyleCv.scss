@@ -56,6 +56,7 @@
             position: relative;
             text-align: right;
             top: 50px;
+            margin-top: 0;
         }
         //=================================
         &-content {
@@ -94,12 +95,11 @@
                     margin-bottom: 0;
                 }
                 li {
-                    transition: all 0.2s;
                     line-height: 1.7;
                     cursor: pointer;
                     &:hover {
                         a {
-                            transition: all 0.2s;
+                            transition: 0.9s;
                             font-weight: 700;
                             font-style: italic;
                             font-size: 1.5em;
@@ -129,9 +129,10 @@
                 line-height: 1.8;
                 font-size: 1.1rem;
                 p {
-                    padding-bottom: 3%;
+                    margin: 0;
+                    padding-bottom: 2.2%;
                     a {
-                        font-family: Avenir, Helvetica, Arial, sans-serif;
+                        // font-family: Avenir, Helvetica, Arial, sans-serif;
                         font-weight: 700;
                         font-size: 1.3rem;
                         border-bottom: 2px solid rgb(5, 147, 212);
