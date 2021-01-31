@@ -5,7 +5,7 @@
         <h2>{{ positionName }}</h2>
         <h3>{{ whatAreSearchingFor }}</h3>
         <hr />
-        <h4>JOB OBJECTIVE</h4>
+        <h4>JOB OBJECTIVE . . .</h4>
         <div class="text">
           <p v-for="item in jobObjective" :key="item">
             {{ item }}

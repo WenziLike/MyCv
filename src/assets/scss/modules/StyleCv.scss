@@ -131,6 +131,9 @@
                 p {
                     margin: 0;
                     padding-bottom: 2.2%;
+                    &:nth-child(1) {
+                        margin-left: 5%;
+                    }
                     a {
                         // font-family: Avenir, Helvetica, Arial, sans-serif;
                         font-weight: 700;

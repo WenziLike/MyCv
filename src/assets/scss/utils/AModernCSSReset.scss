@@ -355,7 +355,7 @@ section,
     width: 300px;
     height: 300px; /* Ширина и высота */
     border-radius: 50%; /* Превращаем в круг */
-    background: url("./../myfoto.jpg") no-repeat -50px 0; /* Параметры фона */
+    // background: url("./../myfoto.jpg") no-repeat -50px 0; /* Параметры фона */
     background-size: auto 400px; /* Высота фотографии равна высоте элемента */
     box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
 }

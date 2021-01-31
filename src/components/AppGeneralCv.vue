@@ -8,7 +8,13 @@
             <div class="wrapper-logo">
               <strong>{{ logo }}</strong>
             </div>
-            <div class="card circle-image"></div>
+            <div class="card">
+              <img
+                src="./../assets/myfoto.jpg"
+                class="circle-image"
+                alt="Viacheslav Murakhin"
+              />
+            </div>
             <ul class="card-contacts">
               <li v-for="item in contacts" :key="item">
                 <a :href="item.href">{{ item.text }}</a>
