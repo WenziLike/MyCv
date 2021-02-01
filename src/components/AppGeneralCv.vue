@@ -9,11 +9,13 @@
               <strong>{{ logo }}</strong>
             </div>
             <div class="circle-image"></div>
-            <ul class="card-contacts">
-              <li v-for="item in contacts" :key="item">
-                <a :href="item.href">{{ item.text }}</a>
-              </li>
-            </ul>
+            <div class="card-contacts">
+              <ul class="">
+                <li v-for="item in contacts" :key="item">
+                  <a :href="item.href">{{ item.text }}</a>
+                </li>
+              </ul>
+            </div>
             <div class="card-adress">
               <p>31-425 Kraków, Poland</p>
               <p>Rogatka 7</p>

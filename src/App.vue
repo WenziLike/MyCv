@@ -32,8 +32,14 @@ export default {
     return {
       logo: '<VM />',
       copy: '&#169',
-      checkMark: '&#10003;'
+      checkMark: '&#10003;',
+      year: ''
     }
+  },
+  methods: {
+    // year() {
+    //   // this.year = new Data().
+    // }
   },
   provide() {
     return {
@@ -54,10 +60,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-// #app {
-// [..."I'm currently looking for a front-end dev team right now
-// to do it"].join(' ')
-// }
-</style>

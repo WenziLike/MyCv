@@ -4,7 +4,7 @@
       <h2>Skills</h2>
       <ul>
         <li v-for="item in skills" :key="item">
-          <a href="#" target="_blank">{{ item.title }}</a>
+          <a :href="item.link" target="_blank">{{ item.title }}</a>
         </li>
         <h4 class="skills-sub-title">Transpilators :</h4>
         <hr />
