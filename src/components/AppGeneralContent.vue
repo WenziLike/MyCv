@@ -42,8 +42,7 @@
             Java Script Constructor built on the principles of OOP and
             S.O.L.I.D.
             <a href="#" target="_blank"> Go to Constructor </a>
-            (SPB),<br />
-            Used are technologies such as
+            (SPB), Used are technologies such as
             <span class="mark">Webpack, Using "VanillaJS"</span> , without
             frameworks.
           </p>
