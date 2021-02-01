@@ -19,6 +19,7 @@
                 }
                 &-social {
                     margin-right: 6%;
+                    top: 15px;
                     ul li {
                         margin: 2%;
                     }
@@ -71,15 +72,10 @@
     }
 }
 @media (max-width: 414px) {
-    /* стили для xs-устройств */
-    // div#app {
-    //     margin: 0;
-    // }
     #app {
         .container {
             .wrapper {
                 &-title {
-                    // margin-top: 6%;
                     top: 190px;
                     left: -54%;
                     font-size: 1.3em;
@@ -149,7 +145,7 @@
                 }
                 .skills {
                     position: absolute;
-                    top: -610px;
+                    top: -598px;
                     right: 40px;
                     text-align: right;
                 }

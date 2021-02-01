@@ -1,7 +1,15 @@
 export default {
-
   firstName: 'Viacheslav',
   lastName: 'Murakhin',
+  positionName: `Traine || Junior Vue. JS Front-End`,
+  otherActivities: [`When I'm not working, I like cycling, skiing and snowboarding.`],
+  whatAreSearchingFor: `I'm currently looking for a front- end dev team to join .`,
+  adress: ['31-425 Kraków, Poland', 'Rogatka 7'],
+  social: [
+    { text: 'facebook', link: `https://www.facebook.com/WenziLike/` },
+    { text: 'Telegram', link: `https://t.me/Like_Slawomir` },
+    { text: 'Git', link: `https://github.com/WenziLike` }
+  ],
   contacts: [
     { text: '+48 537 88 61 61', href: `tel:+ 48537886161` },
     { text: 'SlavaMyraxin@icloud.com', href: 'mailto:SlavaMyraxin@icloud.com' },
@@ -35,11 +43,8 @@ export default {
     'Russian – Native',
     'Ukrainian - Native'
   ],
-  positionName: `Traine || Junior Vue. JS Front-End`,
-  whatAreSearchingFor: `I'm currently looking for a front- end dev team to join .`,
   jobObjective: [
     'Use my professional skills in achieving personal goals.',
     ' I am willing to learn something new and develop myself. Besides thisI can really learn quickly and also share my own knowledge and experience.',
   ],
-  otherActivities: [`When I'm not working, I like cycling, skiing and snowboarding.`],
 }

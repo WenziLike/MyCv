@@ -17,16 +17,15 @@
         position: relative;
         //=================================
         &-social {
-            position: fixed;
-            top: 2%;
-            right: 6%;
-            z-index: -1;
+            position: relative;
+            top: -20px;
+            right: 0%;
             ul {
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
                 li {
-                    margin-right: 9%;
+                    margin-right: 3%;
                     a {
                         font-weight: 700;
                         font-size: 1.1em;
@@ -99,7 +98,6 @@
                     cursor: pointer;
                     &:hover {
                         a {
-                            transition: 0.9s;
                             font-weight: 700;
                             font-style: italic;
                             font-size: 1.5em;

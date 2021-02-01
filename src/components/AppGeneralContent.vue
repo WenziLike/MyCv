@@ -59,7 +59,6 @@
             distinctio rem quo harum nulla, sit deleniti ullam quae soluta
             culpa!
           </p>
-          <p></p>
         </div>
       </section>
     </div>
@@ -88,6 +87,3 @@ export default {
   ]
 }
 </script>
-
-<style lang="scss" scoped>
-</style>

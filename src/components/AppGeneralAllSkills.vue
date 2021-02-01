@@ -15,7 +15,6 @@
         -->
       </ul>
     </div>
-    <!-- ============ -->
     <div class="education">
       <section>
         <h2>Education</h2>
@@ -27,7 +26,6 @@
         <p>Graduated and worked as a Labor Inspector</p>
       </section>
     </div>
-    <!-- ============ -->
     <div class="languages">
       <section>
         <h2>Languages</h2>
@@ -36,7 +34,6 @@
         </ul>
       </section>
     </div>
-    <!-- ============ -->
   </section>
 </template>
 
@@ -45,6 +42,3 @@ export default {
   inject: ['languages', 'skills']
 }
 </script>
-
-<style lang="scss" scoped>
-</style>
