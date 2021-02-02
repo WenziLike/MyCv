@@ -34,15 +34,6 @@ p,
 ul {
     line-height: 1.5;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 500;
-    line-height: 1.4;
-}
 
 h1 {
     font-size: 2.2em;
@@ -56,6 +47,12 @@ h2 {
 
 h3 {
     font-size: 1.35rem;
+}
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    line-height: 1.4;
 }
 
 /* Set core root defaults */
@@ -101,7 +98,7 @@ ul[class],
 ol[class] {
     list-style: none;
 }
-//! добавил
+
 ul,
 li {
     margin: 0;
@@ -141,23 +138,10 @@ textarea,
 select {
     font: inherit;
 }
-
 /* Blur images when they have no alt attribute */
 img:not([alt]) {
     filter: blur(10px);
 }
-/* ==================================================================*/
-/* Remove all animations and transitions for people that prefer not to see them */
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
-// @media (prefers-reduced-motion: reduce) {
-//     * {
-//         animation-duration: 0.01ms !important;
-//         animation-iteration-count: 1 !important;
-//         transition-duration: 0.01ms !important;
-//         scroll-behavior: auto !important;
-//     }
-// }
-//! добавил
 section,
 .section {
     position: relative;
