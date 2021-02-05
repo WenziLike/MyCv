@@ -38,6 +38,7 @@ export default {
       checkMark: this.checkMark,
       copy: this.copy,
       logo: this.logo,
+      modal: this.modal,
       firstName: dataFile.firstName,
       lastName: dataFile.lastName,
       contacts: dataFile.contacts,

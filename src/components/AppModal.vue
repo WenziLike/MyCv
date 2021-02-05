@@ -17,6 +17,7 @@
 <script>
 export default {
   emits: ['close'],
+  inject: ['modal'],
   data() {
     return {
       multiple: true,
@@ -24,21 +25,18 @@ export default {
       file: null
     }
   },
-  mounted() {
-    const element = (tag, classes = [], content) => {
+  mounted() {},
+  methods: {
+    greateButton(tag, classes = [], content) {
       const node = document.createElement(tag)
 
       if (classes.length) {
         node.classList.add(...classes)
       }
-
       if (content) {
         node.textContent = content
       }
-      return node
-    }
-  },
-  methods: {
+    },
     getfile() {
       // this.file = this.$refs.file.files[0]
       console.log(this.$refs.file.files[0])
