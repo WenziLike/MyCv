@@ -103,7 +103,7 @@ export default {
     jobObjective: [
         'Use my professional skills in achieving personal goals.',
         ' I am willing to learn something new and develop myself. ' +
-        'Besides thisI can really learn quickly and also share my own ' +
+        'Besides this. I can really learn quickly and also share my own ' +
         'knowledge and experience.'
     ]
 }
