@@ -51,7 +51,7 @@
                         <span class="check-mark" v-html="checkMark"></span>
                         Blog News
                         <a href="https://blog.slavamur.com/" target="_blank"> Go to Blog </a>
-                        (SPB), Used are technologies such as <br>
+                        (Ukraine), Used are technologies such as <br>
                         <span class="mark">
                             Vue js , VueX , Axios Promise based
                             HTTP client for the browser and node.js

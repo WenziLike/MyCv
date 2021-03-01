@@ -1,13 +1,15 @@
 <template>
     <div class="wrapper-content">
         <h1 class="wrapper-title">{{ firstName }} {{ lastName }}</h1>
-        <div class="wapper-content flex-sa">
+        <div class="flex-sa">
             <div class="card">
                 <div class="card shadow-drop-2-center">
                     <div class="wrapper-logo">
                         <strong>{{ logo }}</strong>
                     </div>
-                    <div class="circle-image"></div>
+                    <div class="circle-image">
+                        <img src="./../assets/my.jpg" class="my-foto" alt="my-foto">
+                    </div>
                     <div class="card-contacts">
                         <ul>
                             <li v-for="item in contacts" :key="item">
@@ -40,20 +42,42 @@ export default {
     inject: ['logo', 'copy', 'firstName', 'lastName', 'contacts', 'adress'],
     components: {
         AppGeneralContent,
-        AppGeneralAllSkills,
-    },
+        AppGeneralAllSkills
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 #app {
-    .circle-image {
+    //.circle-image {
+    //    width: 300px;
+    //    height: 300px; /* Ширина и высота */
+    //    border-radius: 50%; /* Превращаем в круг */
+    //    //background: url("./../assets/myfoto.jpg") no-repeat -50px 0; /* Параметры фона */
+    //    //background-size: auto 400px; /* Высота фотографии равна высоте элемента */
+    //    box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+    //}
+    //.my-foto {
+    //    display: inline-block;
+    //    vertical-align: middle;
+    //    width: 300px;
+    //    height: 300px; /* Ширина и высота */
+    //    border-radius: 50%; /* Превращаем в круг */
+    //}
+
+    .circle-image{
+        display: inline-block;
+        border-radius: 50%;
+        overflow: hidden;
         width: 300px;
-        height: 300px; /* Ширина и высота */
-        border-radius: 50%; /* Превращаем в круг */
-        background: url("./../assets/myfoto.jpg") no-repeat -50px 0; /* Параметры фона */
-        background-size: auto 400px; /* Высота фотографии равна высоте элемента */
-        box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.2);
+        height: 300px;
+        box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+    .circle-image img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+        transform: rotate(30deg);
     }
 }
 </style>
