@@ -58,6 +58,15 @@
                         </span> ,
                         registration, login, pagination, Setting and Edit page,popular tags
                     </p>
+                    <p>
+                        <span class="check-mark" v-html="checkMark"></span>
+                        Notes App
+                        <a href="https://notes.slavamur.com/" target="_blank"> Go to Notes</a>
+                        (Ukraine), Used are technologies such as <br>
+                        <span class="mark">
+                            Vue js
+                        </span> Search , Priority.
+                    </p>
                 </div>
             </section>
         </div>

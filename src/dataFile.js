@@ -96,7 +96,7 @@ export default {
     ],
     languages: [
         'English – Elementary',
-        'Polish – Intermediate',
+        'Polish – Elementary',
         'Russian – Native',
         'Ukrainian - Native'
     ],
