@@ -7,7 +7,7 @@ export default {
     adress: ['31-425 Kraków, Poland', 'Rogatka 7'],
     social: [
         {
-            text: 'facebook',
+            text: 'Facebook',
             link: `https://www.facebook.com/WenziLike/`
         },
         {
