@@ -25,6 +25,12 @@
                 </p>
                 <p>Graduated and worked as a Labor Inspector</p>
             </section>
+            <section>
+                <h4>SDAcademy</h4>
+                <p>Java Courses</p>
+                <p>University of Economics and Computer Science in Krakow </p>
+                <p>end of training 2021/11</p>
+            </section>
         </div>
         <div class="languages">
             <section>
